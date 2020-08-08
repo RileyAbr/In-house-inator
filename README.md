@@ -1,3 +1,3 @@
 # In-house-inator
- 
-A Discord bot to facilitating in-house matches.
+
+A Discord bot for facilitating in-house matches.
