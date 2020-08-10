@@ -39,7 +39,7 @@ bot.on("message", (msg) => {
     // Process command issued
     if (firstWord == PREFIX) {
         // Checks which command was specified
-        const command = args.length > 0 ? args.shift().toLowerCase() : "fact";
+        const command = args.length > 0 ? args.shift().toLowerCase() : "team";
 
         try {
             bot.commands.get(command).execute(msg, args);
