@@ -23,10 +23,10 @@ bot.on("ready", () => {
     bot.user.setActivity(`${PREFIX} help`);
 });
 
-// // Logs when the bot is invited to a new server
-// bot.on("guildCreate", (guild) => {
-//     console.info(`Added to a new server! ${guild.name}`);
-// });
+// Logs when the bot is invited to a new server
+bot.on("guildCreate", (guild) => {
+    console.info(`Added to a new server! ${guild.name}`);
+});
 
 // Messager parser
 bot.on("message", (msg) => {
