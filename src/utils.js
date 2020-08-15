@@ -32,6 +32,23 @@ function chunkArray(array, chunk) {
 }
 
 /**
+ * Parse a string of
+ *
+ * @param teamNames {Array} Array to split on comma delimiter rather than spaces
+ */
+function formatTeamNames(teamNames) {
+    const teamNameCommaArray = teamNames
+        .slice(0, teamNames.length)
+        .join("⇄")
+        .split(","); //This unique unicode character was chosen to reduce the chances of someone actually using it in a name
+    const formattedTeamNames = teamNameCommaArray.map((element) => {
+        return element.replace(/⇄/g, " ").trim();
+    });
+
+    return formattedTeamNames;
+}
+
+/**
  * Prints out an error message.
  *
  * @param msg {any} Discord.js msg object from bot command call
@@ -41,4 +58,20 @@ function sendBotError(msg, errorMessage) {
     msg.channel.send(`> **ERROR:** ${errorMessage}`);
 }
 
-module.exports = { shuffleArray, chunkArray, sendBotError };
+/**
+ * Prints out an error message.
+ *
+ * @param msg {any} Discord.js msg object from bot command call
+ * @param errorMessage {String} Error message to print
+ */
+function sendBotReplyError(msg, errorMessage) {
+    msg.reply(`**ERROR:** ${errorMessage}`);
+}
+
+module.exports = {
+    shuffleArray,
+    chunkArray,
+    formatTeamNames,
+    sendBotError,
+    sendBotReplyError,
+};
