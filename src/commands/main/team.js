@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 
-const mockUsers = require("../../mocks");
 const {
     shuffleArray,
     chunkArray,
