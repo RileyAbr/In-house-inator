@@ -2,7 +2,6 @@ const Discord = require("discord.js");
 
 const {
     shuffleArray,
-    chunkArray,
     formatTeamNames,
     sendBotError,
     sendBotReplyError,
@@ -41,29 +40,63 @@ module.exports = {
             .filter((member) => {
                 return member.user.bot == false && !member.voice.mute;
             });
+        const mutedInVoice = msg.member.voice.channel.members
+            .array()
+            .filter((member) => {
+                return member.user.bot == false && member.voice.mute;
+            });
 
-        const randomizedUsers = chunkArray(
-            shuffleArray(membersInVoice),
-            maxPlayers
-        );
+        const randomizedUsers = shuffleArray(membersInVoice);
 
         if (membersInVoice.length < maxTeams * maxPlayers) {
             sendBotError(msg, "Not enough users to make balanced teams!");
         }
 
         for (let i = 0; i < maxTeams; i++) {
-            let teamEmbed = new Discord.MessageEmbed()
-                .setTitle(teamNames[i] ? teamNames[i] : `Team ${i + 1}`)
+            if (randomizedUsers.length > 0) {
+                let teamEmbed = new Discord.MessageEmbed()
+                    .setTitle(teamNames[i] ? teamNames[i] : `Team ${i + 1}`)
+                    .setThumbnail(
+                        "https://raw.githubusercontent.com/RileyAbr/In-house-inator/master/assets/in-house-inator.jpg"
+                    );
+                // .setDescription("<@" + msg.member.user.id + ">") Currently unused, but can ping a member in the description
+
+                for (let j = 0; j < maxPlayers; j++) {
+                    if (randomizedUsers.length > 0) {
+                        const member = randomizedUsers.pop();
+                        teamEmbed.addField(`Player ${j + 1}`, member.nickname);
+                    }
+                }
+                msg.channel.send(teamEmbed);
+            }
+        }
+
+        if (randomizedUsers.length > 0) {
+            let remainingEmbed = new Discord.MessageEmbed()
+                .setTitle("Remaining Players")
                 .setThumbnail(
                     "https://raw.githubusercontent.com/RileyAbr/In-house-inator/master/assets/in-house-inator.jpg"
                 );
-            // .setDescription("<@" + msg.member.user.id + ">") Currently unused, but can ping a member in the description
 
-            randomizedUsers[i].forEach((member, index) => {
-                teamEmbed.addField(`Player ${index + 1}`, member.user.username);
+            randomizedUsers.forEach((member, index) => {
+                remainingEmbed.addField(`Player ${index + 1}`, member.nickname);
             });
 
-            msg.channel.send(teamEmbed);
+            msg.channel.send(remainingEmbed);
+        }
+
+        if (mutedInVoice.length > 0) {
+            let mutedEmbed = new Discord.MessageEmbed()
+                .setTitle("Muted Players")
+                .setThumbnail(
+                    "https://raw.githubusercontent.com/RileyAbr/In-house-inator/master/assets/in-house-inator.jpg"
+                );
+
+            mutedInVoice.forEach((member) => {
+                mutedEmbed.addField("\u200B", member.nickname);
+            });
+
+            msg.channel.send(mutedEmbed);
         }
     },
 };
