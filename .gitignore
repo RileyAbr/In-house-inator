@@ -3,6 +3,7 @@ outline.md
 mocks.js
 .vscode
 
+/node_modules
 
 # Logs
 logs
