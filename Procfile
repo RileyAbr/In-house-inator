@@ -1,1 +1,0 @@
-worker: node ./in-house-inator-bot/src/bot.js
