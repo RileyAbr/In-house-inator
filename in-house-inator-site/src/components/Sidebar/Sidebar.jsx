@@ -1,10 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export default function Sidebar(props) {
+function Sidebar(props) {
     return (
         <div>
-            Sidebar works!
+            Home
+            {props.routes.map((route) => {
+                return <Link to={route.path}>{route.path}</Link>;
+            })}
+            <hr />
             {props.children}
         </div>
     );
 }
+
+export default Sidebar;
