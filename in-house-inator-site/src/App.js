@@ -1,29 +1,34 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-
 import { Route, Switch } from "react-router-dom";
+
+import { Box, Flex } from "@chakra-ui/core";
 
 import Content from "./components/Content";
 import Sidebar from "./components/Sidebar/";
-import Credits from "./components/Credits";
 
+import commands from "./commands.json";
 import routes from "./routes";
 
 function App() {
     return (
-        <div className="App">
-            <Sidebar routes={routes}>
-                <img src={logo} className="App-logo" alt="logo" />
-                <Credits />
-            </Sidebar>
+        <Flex
+            height="100vh"
+            flexDir={["column", "column", "row"]}
+            bg="scienceBlack"
+            color="scienceWhite"
+        >
+            <Box as="aside" flex="0 0 17rem">
+                <Sidebar commands={commands} />
+            </Box>
 
-            <Switch>
-                {routes.map((route) => {
-                    return <Route {...route} />;
-                })}
-            </Switch>
-        </div>
+            <Box as="main" flex="1" bg="scienceGrey">
+                <Switch>
+                    {routes.map((route, i) => {
+                        return <Route key={i} {...route} />;
+                    })}
+                </Switch>
+            </Box>
+        </Flex>
     );
 }
 
