@@ -10,7 +10,12 @@ import routes from "./routes";
 
 function App() {
     return (
-        <Flex height="100vh" flexDir={["column", "column", "row"]}>
+        <Flex
+            height="100vh"
+            flexDir={["column", "column", "row"]}
+            bg="evilBlack"
+            color="evilWhite"
+        >
             <Box as="aside" flex="0 0 16rem">
                 <Sidebar routes={routes} />
             </Box>
