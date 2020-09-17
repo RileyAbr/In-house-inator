@@ -44,15 +44,20 @@ function Sidebar(props) {
                 listStyleType="disc"
                 color="scienceGreen"
             >
-                {props.routes.map((route) => {
-                    return (
-                        <ListItem>
-                            <Link as={ReactRouterLink} to={route.path}>
-                                {route.path}
-                            </Link>
-                        </ListItem>
-                    );
-                })}
+                {props.routes &&
+                    props.routes.map((route, i) => {
+                        return (
+                            <ListItem>
+                                <Link
+                                    key={i}
+                                    as={ReactRouterLink}
+                                    to={route.path}
+                                >
+                                    {route.path}
+                                </Link>
+                            </ListItem>
+                        );
+                    })}
             </UnorderedList>
             <Credits />
         </VStack>
