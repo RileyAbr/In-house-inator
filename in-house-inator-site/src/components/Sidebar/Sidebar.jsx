@@ -17,7 +17,11 @@ import Credits from "../Credits";
 
 const LogoMasthead = () => {
     return (
-        <Flex alignItems={["center", "center", "normal"]}>
+        <Flex
+            as={ReactRouterLink}
+            to="/"
+            alignItems={["center", "center", "normal"]}
+        >
             <Image
                 width="75px"
                 height="auto"
