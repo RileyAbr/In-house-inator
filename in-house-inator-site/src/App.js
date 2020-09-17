@@ -16,7 +16,7 @@ function App() {
             bg="scienceBlack"
             color="scienceWhite"
         >
-            <Box as="aside" flex="0 0 16rem">
+            <Box as="aside" flex="0 0 17rem">
                 <Sidebar routes={routes} />
             </Box>
 
