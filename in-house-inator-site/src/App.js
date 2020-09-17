@@ -3,7 +3,6 @@ import { Route, Switch } from "react-router-dom";
 
 import { Box, Flex } from "@chakra-ui/core";
 
-import Content from "./components/Content";
 import Sidebar from "./components/Sidebar/";
 
 import commands from "./commands.json";
