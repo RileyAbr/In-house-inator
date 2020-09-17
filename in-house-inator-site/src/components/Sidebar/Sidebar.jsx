@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 import logo from "../../logo.svg";
 
-import { Heading, VStack } from "@chakra-ui/core";
+import { Flex, Heading, VStack } from "@chakra-ui/core";
 
 import Credits from "../Credits";
 
-function Sidebar(props) {
+const LogoMasthead = () => {
     return (
-        <VStack as="nav" height="100%">
+        <Flex>
             <img
                 width="50px"
                 height="50px"
@@ -17,11 +17,19 @@ function Sidebar(props) {
                 className="App-logo"
                 alt="logo"
             />
-            <Heading color="evilPurple">Home</Heading>
+            <Heading color="sciencePurple">Home</Heading>
+        </Flex>
+    );
+};
+
+function Sidebar(props) {
+    return (
+        <VStack as="nav" height="100%">
+            <LogoMasthead />
+
             {props.routes.map((route) => {
                 return <Link to={route.path}>{route.path}</Link>;
             })}
-            <hr />
             <Credits />
         </VStack>
     );
