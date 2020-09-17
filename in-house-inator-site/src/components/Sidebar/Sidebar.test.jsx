@@ -5,7 +5,7 @@ import "@testing-library/jest-dom/extend-expect";
 
 import Sidebar from "./Sidebar";
 
-const sampleRoutes = [{ route: "/home" }];
+const sampleCommands = ["commandA", "commandB"];
 
 test("Displays site logo", async () => {
     render(
@@ -34,11 +34,11 @@ test("Displays no links when no routes are supplied", async () => {
 test("Displays links from a sample routes object", async () => {
     render(
         <BrowserRouter>
-            <Sidebar routes={sampleRoutes} />
+            <Sidebar commands={sampleCommands} />
         </BrowserRouter>
     );
 
     const sideBarLinks = screen.getAllByRole("link");
 
-    expect(sideBarLinks.length).toBe(1 + sampleRoutes.length);
+    expect(sideBarLinks.length).toBe(1 + sampleCommands.length);
 });
