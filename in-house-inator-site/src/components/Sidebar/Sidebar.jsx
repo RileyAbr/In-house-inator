@@ -1,30 +1,32 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import logo from "../../logo.svg";
+import logo from "../../in-house-inator_logo.png";
 
-import { Flex, Heading, VStack } from "@chakra-ui/core";
+import { Flex, Image, Heading, VStack } from "@chakra-ui/core";
 
 import Credits from "../Credits";
 
 const LogoMasthead = () => {
     return (
-        <Flex>
-            <img
-                width="50px"
-                height="50px"
+        <Flex alignItems={["center", "center", "normal"]}>
+            <Image
+                width="75px"
+                height="auto"
                 src={logo}
-                className="App-logo"
+                display="inline"
                 alt="logo"
             />
-            <Heading color="sciencePurple">Home</Heading>
+            <Heading lineHeight="1" color="sciencePurple">
+                In-house-inator
+            </Heading>
         </Flex>
     );
 };
 
 function Sidebar(props) {
     return (
-        <VStack as="nav" height="100%">
+        <VStack as="nav" height="100%" p={2}>
             <LogoMasthead />
 
             {props.routes.map((route) => {
