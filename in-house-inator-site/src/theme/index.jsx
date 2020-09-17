@@ -9,6 +9,10 @@ const customTheme = {
         evilGreen: "#6BD425",
         evilPurple: "#6F2DBD",
     },
+    fonts: {
+        body: "Roboto Slab, serif",
+        heading: "Ruda, sans-serif",
+    },
 };
 
 export default merge(theme, customTheme);
