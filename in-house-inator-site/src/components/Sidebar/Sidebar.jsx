@@ -29,7 +29,7 @@ const LogoMasthead = () => {
                 display="inline"
                 alt="logo"
             />
-            <Heading lineHeight="1" color="sciencePurple">
+            <Heading as="h1" lineHeight="1" color="sciencePurple">
                 In-house-inator
             </Heading>
         </Flex>
@@ -45,19 +45,16 @@ function Sidebar(props) {
             <UnorderedList
                 w="80%"
                 fontSize="xl"
+                fontFamily="heading"
                 listStyleType="disc"
                 color="scienceGreen"
             >
-                {props.routes &&
-                    props.routes.map((route, i) => {
+                {props.commands &&
+                    props.commands.map((command, i) => {
                         return (
-                            <ListItem>
-                                <Link
-                                    key={i}
-                                    as={ReactRouterLink}
-                                    to={route.path}
-                                >
-                                    {route.path}
+                            <ListItem key={i}>
+                                <Link as={ReactRouterLink} to={command}>
+                                    {command}
                                 </Link>
                             </ListItem>
                         );

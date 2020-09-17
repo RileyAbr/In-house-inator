@@ -6,6 +6,7 @@ import { Box, Flex } from "@chakra-ui/core";
 import Content from "./components/Content";
 import Sidebar from "./components/Sidebar/";
 
+import commands from "./commands.json";
 import routes from "./routes";
 
 function App() {
@@ -17,13 +18,13 @@ function App() {
             color="scienceWhite"
         >
             <Box as="aside" flex="0 0 17rem">
-                <Sidebar routes={routes} />
+                <Sidebar commands={commands} />
             </Box>
 
             <Box as="main" flex="1" bg="scienceGrey">
                 <Switch>
-                    {routes.map((route) => {
-                        return <Route {...route} />;
+                    {routes.map((route, i) => {
+                        return <Route key={i} {...route} />;
                     })}
                 </Switch>
             </Box>
