@@ -3,11 +3,11 @@ import { merge } from "@chakra-ui/utils";
 
 const customTheme = {
     colors: {
-        evilBlack: "#2F3136",
-        evilGrey: "#7B818E",
-        evilWhite: "#EFF2F1",
-        evilGreen: "#6BD425",
-        evilPurple: "#6F2DBD",
+        scienceBlack: "#2F3136",
+        scienceGrey: "#383B42",
+        scienceWhite: "#EFF2F1",
+        scienceGreen: "#6BD425",
+        sciencePurple: "#6F2DBD",
     },
     fonts: {
         body: "Roboto Slab, serif",

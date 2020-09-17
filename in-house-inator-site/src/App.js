@@ -13,14 +13,14 @@ function App() {
         <Flex
             height="100vh"
             flexDir={["column", "column", "row"]}
-            bg="evilBlack"
-            color="evilWhite"
+            bg="scienceBlack"
+            color="scienceWhite"
         >
             <Box as="aside" flex="0 0 16rem">
                 <Sidebar routes={routes} />
             </Box>
 
-            <Box as="main" flex="1">
+            <Box as="main" flex="1" bg="scienceGrey">
                 <Switch>
                     {routes.map((route) => {
                         return <Route {...route} />;
