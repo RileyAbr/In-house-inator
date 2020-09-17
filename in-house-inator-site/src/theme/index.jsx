@@ -13,6 +13,10 @@ const customTheme = {
         body: "Roboto Slab, serif",
         heading: "Ruda, sans-serif",
     },
+    transitions: {
+        short: "250ms",
+        medium: "600ms",
+    },
 };
 
 export default merge(theme, customTheme);
