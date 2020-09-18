@@ -28,7 +28,7 @@ test("Displays no links when no routes are supplied", async () => {
 
     const sideBarLinks = screen.getAllByRole("link");
 
-    expect(sideBarLinks.length).toBe(1);
+    expect(sideBarLinks.length).toBe(2);
 });
 
 test("Displays links from a sample routes object", async () => {
@@ -40,5 +40,5 @@ test("Displays links from a sample routes object", async () => {
 
     const sideBarLinks = screen.getAllByRole("link");
 
-    expect(sideBarLinks.length).toBe(1 + sampleCommands.length);
+    expect(sideBarLinks.length).toBe(2 + sampleCommands.length);
 });
