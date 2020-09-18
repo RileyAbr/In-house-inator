@@ -3,8 +3,6 @@ import { NavLink as ReactRouterLink } from "react-router-dom";
 
 import logo from "../../in-house-inator_logo.png";
 
-import theme from "../../theme";
-
 import {
     Flex,
     Image,
