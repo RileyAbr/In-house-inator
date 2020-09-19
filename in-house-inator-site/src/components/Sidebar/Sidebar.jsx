@@ -41,7 +41,7 @@ const LogoMasthead = () => {
             <Heading
                 as="h1"
                 lineHeight="1"
-                color="sciencePurple"
+                color="sciencePurple.500"
                 _after={{
                     // In regular CSS one can just do the empty quotes, but the Chakra compiler reads this as completely empty and won't attach the empty content
                     content: `""`,
@@ -49,18 +49,11 @@ const LogoMasthead = () => {
                     bottom: "-10px",
                     width: "0px",
                     height: "4px",
-                    bg: "sciencePurple",
+                    bg: "sciencePurple.500",
                     transition: "250ms",
                 }}
                 _focus={{
-                    // In regular CSS one can just do the empty quotes, but the Chakra compiler reads this as completely empty and won't attach the empty content
-                    content: `""`,
-                    display: "block",
-                    bottom: "-10px",
-                    width: "0px",
-                    height: "4px",
-                    bg: "sciencePurple",
-                    transition: "250ms",
+                    _after: { width: "100%", transition: "250ms" },
                 }}
                 _groupHover={{
                     _after: { width: "100%", transition: "250ms" },
