@@ -80,7 +80,7 @@ const CommandNavLinks = (props) => {
             fontSize="2xl"
             fontFamily="heading"
             listStyleType="none"
-            color="scienceGreen"
+            color="scienceGreen.500"
         >
             {props.commands &&
                 props.commands.map((command, i) => {
@@ -100,7 +100,7 @@ const CommandNavLinks = (props) => {
                                     left: "-2",
                                     width: "0px",
                                     height: "100%",
-                                    bg: "scienceGreen",
+                                    bg: "scienceGreen.500",
                                     transition: "250ms",
                                 }}
                                 _hover={{

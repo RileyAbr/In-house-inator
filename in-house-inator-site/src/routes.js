@@ -6,7 +6,7 @@ import commands from "./commands.json";
 const routes = [];
 
 // Get all commands from the JSON file and match them to a component
-commands.map((command) => {
+commands.forEach((command) => {
     routes.push({ path: `/${command}`, component: Content });
 });
 
