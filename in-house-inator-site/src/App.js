@@ -15,6 +15,7 @@ function App() {
             flexDir={["column", "column", "row"]}
             bg="scienceBlack"
             color="scienceWhite"
+            data-testid="app-container"
         >
             <Box as="aside" flex="0 0 17rem">
                 <Sidebar commands={commands} />
