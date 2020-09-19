@@ -18,4 +18,8 @@ test("Display add to server button", async () => {
     const serverButton = screen.getByRole("link");
 
     expect(serverButton).toHaveTextContent("Invite to Your Server");
+    expect(serverButton).toHaveAttribute(
+        "href",
+        "https://discord.com/api/oauth2/authorize?client_id=717139360272613526&permissions=0&scope=bot"
+    );
 });

@@ -17,7 +17,9 @@ function Home() {
                     color="scienceGrey"
                     colorScheme="scienceGreen"
                     as="a"
-                    href=""
+                    href="https://discord.com/api/oauth2/authorize?client_id=717139360272613526&permissions=0&scope=bot"
+                    target="_blank"
+                    rel="noopener noreferrer"
                 >
                     Invite to Your Server
                 </Button>
