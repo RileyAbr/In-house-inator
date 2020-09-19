@@ -15,6 +15,8 @@ import {
 
 import Credits from "../Credits";
 
+import { capitalizeFirstLetter } from "../../utils";
+
 const LogoMasthead = () => {
     return (
         <Flex
@@ -120,7 +122,7 @@ const CommandNavLinks = (props) => {
                                     },
                                 }}
                             >
-                                {command}
+                                {capitalizeFirstLetter(command)}
                             </Link>
                         </ListItem>
                     );
