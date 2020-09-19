@@ -59,7 +59,10 @@ function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    👋 Invite to Your Server
+                    <span role="img" aria-label="waving">
+                        👋
+                    </span>{" "}
+                    Invite to Your Server
                 </Button>
             </VStack>
         </Center>

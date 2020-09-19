@@ -8,9 +8,10 @@ import Home from "./Home";
 test("Displays site banner text", async () => {
     render(<Home />);
 
-    const homeBanner = screen.getByRole("heading");
+    const homeBanner = screen.getAllByRole("heading");
 
-    expect(homeBanner).toHaveTextContent("In-house-inator");
+    expect(homeBanner[0]).toHaveTextContent("The");
+    expect(homeBanner[1]).toHaveTextContent("In-house-inator");
 });
 test("Display add to server button", async () => {
     render(<Home />);
