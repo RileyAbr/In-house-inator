@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Redirect, Route, Switch } from "react-router-dom";
 
 import { Box, Flex } from "@chakra-ui/core";
 
@@ -23,9 +23,13 @@ function App() {
 
             <Box as="main" flex="1" bg="scienceGrey">
                 <Switch>
+                    {/* Redirect anything that is more than a single url param */}
                     {routes.map((route, i) => {
                         return <Route key={i} {...route} />;
                     })}
+                    <Route path="*">
+                        <Redirect to="/" />
+                    </Route>
                 </Switch>
             </Box>
         </Flex>

@@ -10,7 +10,10 @@ const customTheme = {
             500: "#6BD425",
             600: "#58AD1F",
         },
-        sciencePurple: "#6F2DBD",
+        sciencePurple: {
+            500: "#6F2DBD",
+            600: "#6027A5",
+        },
     },
     fonts: {
         // Original Fonts
