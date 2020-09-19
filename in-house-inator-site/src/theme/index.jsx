@@ -6,12 +6,18 @@ const customTheme = {
         scienceBlack: "#2F3136",
         scienceGrey: "#383B42",
         scienceWhite: "#EFF2F1",
-        scienceGreen: "#6BD425",
+        scienceGreen: {
+            500: "#6BD425",
+            600: "#58AD1F",
+        },
         sciencePurple: "#6F2DBD",
     },
     fonts: {
-        body: "Roboto Slab, serif",
-        heading: "Ruda, sans-serif",
+        // Original Fonts
+        // body: "Roboto Slab, serif",
+        // heading: "Ruda, sans-serif",
+        body: "Lato, sans-serif",
+        heading: "Arvo, serif",
     },
     transitions: {
         short: "250ms",
