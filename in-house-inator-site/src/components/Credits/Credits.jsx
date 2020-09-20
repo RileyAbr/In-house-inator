@@ -15,7 +15,11 @@ export default function Credits() {
             justifyContent="center"
             p={2}
         >
-            <Link href="https://github.com/RileyAbr/In-house-inator" isExternal>
+            <Link
+                href="https://github.com/RileyAbr/In-house-inator"
+                fontWeight="bold"
+                isExternal
+            >
                 GitHub Repo
             </Link>
             <Box display={["block", "block", "none"]} px={1}>
@@ -23,7 +27,11 @@ export default function Credits() {
             </Box>
             <Box>
                 Created by&nbsp;
-                <Link href="https://www.rileyabrahamson.com/" isExternal>
+                <Link
+                    href="https://www.rileyabrahamson.com/"
+                    fontWeight="bold"
+                    isExternal
+                >
                     Riley Abrahamson
                 </Link>
             </Box>
