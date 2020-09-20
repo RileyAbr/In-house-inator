@@ -2,7 +2,7 @@ import React from "react";
 
 import CodeDisplay from "../CodeDisplay";
 
-import { Center, VStack, Heading, Text, Button, Code } from "@chakra-ui/core";
+import { Center, VStack, Heading, Text, Button } from "@chakra-ui/core";
 
 function Home() {
     return (
