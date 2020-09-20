@@ -4,16 +4,13 @@ import { useParams } from "react-router-dom";
 
 import commands from "../../commands.json";
 
+import { importAll } from "../../utils";
+
 const markDownFilenameParserRegex = new RegExp(/(^\.\/+|.md+$)/gm);
 
-const importAll = (r) => r.keys().map(r);
 const commandMarkdownFilesPaths = importAll(
     require.context("../../commands_desc", false, /\.md$/)
 );
-
-// const commandMarkdownFilesPaths = require
-//     .context("../../commands_desc", false, /\.md$/)
-//     .keys();
 
 const commandMarkdownFileNames = require
     .context("../../commands_desc", false, /\.md$/)
@@ -28,15 +25,9 @@ const commandMarkdownFilesMap = Object.assign(
     }))
 );
 
-console.log(commandMarkdownFilesPaths);
-console.log(commandMarkdownFileNames);
-console.log(commandMarkdownFilesMap);
-
 export default function Content() {
     const [commandDesc, setCommandDesc] = useState(null);
     const commandParam = useParams().command; //If the user is on a command page, it is stored as a query parameter labeled {command: *}
-
-    console.log(commandMarkdownFilesMap[useParams().command]);
 
     useEffect(() => {
         if (
