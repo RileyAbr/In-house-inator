@@ -5,3 +5,11 @@ export function capitalizeFirstLetter(string) {
 export function importAll(r) {
     return r.keys().map(r);
 }
+
+export function createObjectFromTwoArrays(keyArray, valueArray) {
+    return Object.assign(
+        ...keyArray.map((v, i) => ({
+            [v]: valueArray[i],
+        }))
+    );
+}
