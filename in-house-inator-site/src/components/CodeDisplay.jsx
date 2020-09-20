@@ -11,7 +11,7 @@ const CodeDisplay = (props) => {
 };
 
 CodeDisplay.defaultProps = {
-    fontSize: "lg",
+    fontSize: "md",
 };
 
 export default CodeDisplay;

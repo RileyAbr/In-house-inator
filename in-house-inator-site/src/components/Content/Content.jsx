@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-import ChakraMarkdown from "./ChakraMarkdown";
+import ChakraMarkdown from "../ChakraMarkdown";
 
 import { Box, Divider, Heading } from "@chakra-ui/core";
 

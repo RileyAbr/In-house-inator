@@ -36,13 +36,13 @@ function Home() {
                 </Heading>
 
                 <Text fontSize="lg" maxW="600px" p={4}>
-                    The <CodeDisplay fontSize="md">In-house-inator</CodeDisplay>{" "}
-                    is a Discord bot designed to help faciliate in-house matches
-                    for gaming communities. The bot can build teams on the spot
-                    using members in voice chat to streamline the lobby-making
+                    The <CodeDisplay>In-house-inator</CodeDisplay> is a Discord
+                    bot designed to help faciliate in-house matches for gaming
+                    communities. The bot can build teams on the spot using
+                    members in voice chat to streamline the lobby-making
                     process. With a robust set of commands available, the{" "}
-                    <CodeDisplay fontSize="md">In-house-inator</CodeDisplay> is
-                    ready for your next LAN party.
+                    <CodeDisplay>In-house-inator</CodeDisplay> is ready for your
+                    next LAN party.
                 </Text>
 
                 <Button
