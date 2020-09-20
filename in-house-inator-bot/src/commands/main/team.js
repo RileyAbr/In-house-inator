@@ -64,7 +64,10 @@ module.exports = {
                 for (let j = 0; j < maxPlayers; j++) {
                     if (randomizedUsers.length > 0) {
                         const member = randomizedUsers.pop();
-                        teamEmbed.addField(`Player ${j + 1}`, member.nickname);
+                        teamEmbed.addField(
+                            `Player ${j + 1}`,
+                            member.nickname || member.user.username
+                        );
                     }
                 }
                 msg.channel.send(teamEmbed);
@@ -79,7 +82,10 @@ module.exports = {
                 );
 
             randomizedUsers.forEach((member, index) => {
-                remainingEmbed.addField(`Player ${index + 1}`, member.nickname);
+                remainingEmbed.addField(
+                    `Player ${index + 1}`,
+                    member.nickname || member.user.username
+                );
             });
 
             msg.channel.send(remainingEmbed);
@@ -93,7 +99,10 @@ module.exports = {
                 );
 
             mutedInVoice.forEach((member) => {
-                mutedEmbed.addField("\u200B", member.nickname);
+                mutedEmbed.addField(
+                    "\u200B",
+                    member.nickname || member.user.username
+                );
             });
 
             msg.channel.send(mutedEmbed);
