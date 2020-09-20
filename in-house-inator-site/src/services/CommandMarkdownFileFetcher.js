@@ -1,4 +1,8 @@
-import { importAll, createObjectFromTwoArrays } from "../utils";
+import { createObjectFromTwoArrays } from "../utils";
+
+function importAll(r) {
+    return r.keys().map(r);
+}
 
 // These lines take the folder labeled "commands_desc" and creates a Map-like object out of the file paths and names of the individual .md files
 const markDownFilenameParserRegex = new RegExp(/(^\.\/+|.md+$)/gm);

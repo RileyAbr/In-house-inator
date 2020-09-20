@@ -7,11 +7,7 @@ import { Box, Divider, Heading } from "@chakra-ui/core";
 
 import commands from "../../commands.json";
 
-import {
-    capitalizeFirstLetter,
-    importAll,
-    createObjectFromTwoArrays,
-} from "../../utils";
+import { capitalizeFirstLetter } from "../../utils";
 
 import commandsFilesMap from "../../services/CommandMarkdownFileFetcher";
 
