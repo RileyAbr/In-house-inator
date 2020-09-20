@@ -2,9 +2,15 @@ import React, { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import { useParams } from "react-router-dom";
 
+import { Box, Divider, Heading } from "@chakra-ui/core";
+
 import commands from "../../commands.json";
 
-import { importAll, createObjectFromTwoArrays } from "../../utils";
+import {
+    capitalizeFirstLetter,
+    importAll,
+    createObjectFromTwoArrays,
+} from "../../utils";
 
 // These lines take the folder labeled "commands_desc" and creates a Map-like object out of the file paths and names of the individual .md files
 const markDownFilenameParserRegex = new RegExp(/(^\.\/+|.md+$)/gm);
@@ -30,6 +36,7 @@ export default function Content() {
     const commandParam = useParams().command; //If the user is on a command page, it is stored as a query parameter labeled {command: *}
 
     useEffect(() => {
+        // The component first checks if the current URL param matches any command in the json set-up file. Then if checks if there is a matching .md file for that command name
         if (
             commands.includes(commandParam.toLowerCase()) &&
             commandMarkdownFilesMap[commandParam]
@@ -38,13 +45,19 @@ export default function Content() {
                 .then((res) => res.text())
                 .then((text) => setCommandDesc(text));
         } else {
-            setCommandDesc("# Sorry! This command doesn't exist.");
+            setCommandDesc("## Sorry! This command doesn't exist.");
         }
     }, [commandParam]);
 
     return (
         <>
-            <ReactMarkdown source={commandDesc} />
+            <Box maxW="700px" mx="auto" p={3}>
+                <Heading as="h2" size="2xl" pb={2}>
+                    {capitalizeFirstLetter(commandParam)}
+                </Heading>
+                <Divider />
+                <ReactMarkdown source={commandDesc} />
+            </Box>
         </>
     );
 }
