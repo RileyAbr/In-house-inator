@@ -1,6 +1,8 @@
 import React from "react";
 
-import { Center, VStack, Heading, Text, Button, Code } from "@chakra-ui/core";
+import CodeDisplay from "../CodeDisplay";
+
+import { Center, VStack, Heading, Text, Button } from "@chakra-ui/core";
 
 function Home() {
     return (
@@ -35,18 +37,13 @@ function Home() {
                 </Heading>
 
                 <Text fontSize="lg" maxW="600px" p={4}>
-                    The{" "}
-                    <Code display="inline" m={1} fontSize="md">
-                        In-house-inator
-                    </Code>{" "}
-                    is a Discord bot designed to help faciliate in-house matches
-                    for gaming communities. The bot can build teams on the spot
-                    using members in voice chat to streamline the lobby-making
-                    process. With a robust set of commands available, the
-                    <Code display="inline" m={1} fontSize="md">
-                        In-house-inator
-                    </Code>{" "}
-                    is ready for your next LAN party.
+                    The <CodeDisplay>In-house-inator</CodeDisplay> is a Discord
+                    bot designed to help faciliate in-house matches for gaming
+                    communities. The bot can build teams on the spot using
+                    members in voice chat to streamline the lobby-making
+                    process. With a robust set of commands available, the{" "}
+                    <CodeDisplay>In-house-inator</CodeDisplay> is ready for your
+                    next LAN party.
                 </Text>
 
                 <Button
