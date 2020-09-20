@@ -15,6 +15,7 @@ function Home() {
                     mt="-20"
                 >
                     <Heading
+                        as="p"
                         size="xl"
                         fontFamily="body"
                         position="relative"
