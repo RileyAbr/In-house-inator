@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import { useParams } from "react-router-dom";
 
+import CodeDisplay from "../CodeDisplay";
+
 import { Box, Divider, Heading } from "@chakra-ui/core";
 
 import commands from "../../commands.json";
@@ -35,6 +37,12 @@ export default function Content() {
     const [commandDesc, setCommandDesc] = useState(null);
     const commandParam = useParams().command; //If the user is on a command page, it is stored as a query parameter labeled {command: *}
 
+    // These renderers control what components are rendered from the markdown file. By supplying it with Charka UI components, it will keep a consistant style with the rest of the page
+    const chakraRenderers = {
+        inlineCode: CodeDisplay,
+        code: CodeDisplay,
+    };
+
     useEffect(() => {
         // The component first checks if the current URL param matches any command in the json set-up file. Then if checks if there is a matching .md file for that command name
         if (
@@ -45,7 +53,7 @@ export default function Content() {
                 .then((res) => res.text())
                 .then((text) => setCommandDesc(text));
         } else {
-            setCommandDesc("## Sorry! This command doesn't exist.");
+            setCommandDesc("Sorry! This command doesn't exist.");
         }
     }, [commandParam]);
 
@@ -61,7 +69,10 @@ export default function Content() {
                     borderRadius="1px"
                     my={1}
                 />
-                <ReactMarkdown source={commandDesc} />
+                <ReactMarkdown
+                    source={commandDesc}
+                    renderers={chakraRenderers}
+                />
             </Box>
         </>
     );
