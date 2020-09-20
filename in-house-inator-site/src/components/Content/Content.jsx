@@ -52,10 +52,15 @@ export default function Content() {
     return (
         <>
             <Box maxW="700px" mx="auto" p={3}>
-                <Heading as="h2" size="2xl" pb={2}>
+                <Heading as="h2" size="2xl">
                     {capitalizeFirstLetter(commandParam)}
                 </Heading>
-                <Divider />
+                <Divider
+                    borderWidth="2px"
+                    borderColor="sciencePurple.500"
+                    borderRadius="1px"
+                    my={1}
+                />
                 <ReactMarkdown source={commandDesc} />
             </Box>
         </>
