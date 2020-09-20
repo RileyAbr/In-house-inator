@@ -10,8 +10,7 @@ test("Displays site banner text", async () => {
 
     const homeBanner = screen.getAllByRole("heading");
 
-    expect(homeBanner[0]).toHaveTextContent("The");
-    expect(homeBanner[1]).toHaveTextContent("In-house-inator");
+    expect(homeBanner[0]).toHaveTextContent("In-house-inator");
 });
 test("Display add to server button", async () => {
     render(<Home />);
