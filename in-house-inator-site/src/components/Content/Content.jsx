@@ -6,7 +6,7 @@ import commands from "../../commands.json";
 
 import { importAll, createObjectFromTwoArrays } from "../../utils";
 
-// These statements take the folder labeled "commands_desc" and creates a Map-like object out of the file paths and names of the individual .md files
+// These lines take the folder labeled "commands_desc" and creates a Map-like object out of the file paths and names of the individual .md files
 const markDownFilenameParserRegex = new RegExp(/(^\.\/+|.md+$)/gm);
 
 const commandMarkdownFilesPaths = importAll(
