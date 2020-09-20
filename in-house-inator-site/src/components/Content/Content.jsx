@@ -13,24 +13,7 @@ import {
     createObjectFromTwoArrays,
 } from "../../utils";
 
-// These lines take the folder labeled "commands_desc" and creates a Map-like object out of the file paths and names of the individual .md files
-const markDownFilenameParserRegex = new RegExp(/(^\.\/+|.md+$)/gm);
-
-const commandMarkdownFilesPaths = importAll(
-    require.context("../../commands_desc", false, /\.md$/)
-);
-
-const commandMarkdownFilesNames = require
-    .context("../../commands_desc", false, /\.md$/)
-    .keys()
-    .map((filePath) => {
-        return filePath.replace(markDownFilenameParserRegex, "");
-    });
-
-const commandMarkdownFilesMap = createObjectFromTwoArrays(
-    commandMarkdownFilesNames,
-    commandMarkdownFilesPaths
-);
+import commandsFilesMap from "../../services/CommandMarkdownFileFetcher";
 
 export default function Content() {
     const [commandDesc, setCommandDesc] = useState(null);
@@ -40,9 +23,9 @@ export default function Content() {
         // The component first checks if the current URL param matches any command in the json set-up file. Then if checks if there is a matching .md file for that command name
         if (
             commands.includes(commandParam.toLowerCase()) &&
-            commandMarkdownFilesMap[commandParam]
+            commandsFilesMap[commandParam]
         ) {
-            fetch(commandMarkdownFilesMap[commandParam])
+            fetch(commandsFilesMap[commandParam])
                 .then((res) => res.text())
                 .then((text) => setCommandDesc(text));
         } else {
