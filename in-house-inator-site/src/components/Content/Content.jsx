@@ -31,7 +31,7 @@ export default function Content() {
 
     return (
         <>
-            <Box maxW="700px" mx="auto" p={3}>
+            <Box maxW="700px" mx="auto" p={3} minH="100vh">
                 <Heading as="h2" size="2xl">
                     {capitalizeFirstLetter(commandParam)}
                 </Heading>
