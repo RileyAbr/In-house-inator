@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Center, Text, Button } from "@chakra-ui/core";
+import { Text, Button } from "@chakra-ui/core";
 import styled, { keyframes } from "styled-components";
 
 import theme from "../theme";
@@ -79,6 +79,8 @@ const InviteButton = () => {
             rel="noopener noreferrer"
             role="link"
         >
+            {/* ESLint can't tell that this renders as a span with the emoji accessbility checks */}
+            {/* eslint-disable-next-line */}
             <WaveEmoji as="span" role="img" aria-label="waving">
                 👋
             </WaveEmoji>{" "}

@@ -3,7 +3,7 @@ import React from "react";
 import CodeDisplay from "../CodeDisplay";
 import InviteButton from "../InviteButton";
 
-import { Center, VStack, Heading, Text, Button } from "@chakra-ui/core";
+import { Center, VStack, Heading, Text } from "@chakra-ui/core";
 
 function Home() {
     return (
