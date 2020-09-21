@@ -14,6 +14,7 @@ export default function Credits() {
             alignItems="center"
             justifyContent="center"
             p={2}
+            zIndex="footer"
         >
             <Link
                 href="https://github.com/RileyAbr/In-house-inator"

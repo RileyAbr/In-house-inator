@@ -26,6 +26,9 @@ const customTheme = {
         short: "250ms",
         medium: "600ms",
     },
+    zIndices: {
+        footer: 5,
+    },
 };
 
 export default merge(theme, customTheme);
