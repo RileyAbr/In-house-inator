@@ -1,6 +1,7 @@
 import React from "react";
 
 import CodeDisplay from "../CodeDisplay";
+import InviteButton from "../InviteButton";
 
 import { Center, VStack, Heading, Text, Button } from "@chakra-ui/core";
 
@@ -46,22 +47,7 @@ function Home() {
                     next LAN party.
                 </Text>
 
-                <Button
-                    size="lg"
-                    fontFamily="heading"
-                    fontWeight="normal"
-                    color="scienceGrey"
-                    colorScheme="scienceGreen"
-                    as="a"
-                    href="https://discord.com/api/oauth2/authorize?client_id=717139360272613526&permissions=0&scope=bot"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <span role="img" aria-label="waving">
-                        👋
-                    </span>{" "}
-                    Invite to Your Server
-                </Button>
+                <InviteButton />
             </VStack>
         </Center>
     );
