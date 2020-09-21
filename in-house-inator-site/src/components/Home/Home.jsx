@@ -7,23 +7,24 @@ import { Center, VStack, Heading, Text } from "@chakra-ui/core";
 
 function Home() {
     return (
-        <Center h="100%">
+        <Center h="100%" minH="100vh">
             <VStack spacing={5}>
                 <Heading
                     size="2xl"
-                    fontSize="6xl"
+                    fontSize={["4xl", "5xl", "5xl", "6xl"]}
                     as="h2"
-                    px="2"
+                    px={2}
                     color="sciencePurple.500"
                     mt="-20"
                 >
                     <Heading
                         as="p"
                         size="xl"
+                        fontSize={["2xl", "3xl", "3xl", "4xl"]}
                         fontFamily="body"
                         position="relative"
-                        left="-12"
-                        bottom="-5"
+                        left={["-8", "-12"]}
+                        bottom={["-3", "-5"]}
                         color="scienceWhite"
                         transform="rotate(-10deg)"
                         display="block"
@@ -33,7 +34,13 @@ function Home() {
                     </Heading>
                     In-house-inator
                 </Heading>
-                <Heading as="h3" size="md" fontStyle="italic" fontFamily="body">
+                <Heading
+                    as="h3"
+                    size="md"
+                    fontStyle="italic"
+                    fontFamily="body"
+                    px={4}
+                >
                     "Discord in-houses to take over the entire tri-server area!"
                 </Heading>
 
