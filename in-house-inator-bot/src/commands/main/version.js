@@ -12,7 +12,7 @@ module.exports = {
             )
             .addFields({
                 name: "Current Release",
-                value: "v1.0.1",
+                value: "v2.0.0",
             })
             .setFooter(
                 "In-house-inator created by Riley Abrahamson",
