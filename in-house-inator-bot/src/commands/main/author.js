@@ -6,7 +6,7 @@ module.exports = {
     execute(msg, args) {
         const authorEmbed = new Discord.MessageEmbed()
             .setTitle("In-house-inator Discord Bot")
-            .setURL("https://github.com/RileyAbr/In-house-inator")
+            .setURL("https://in-house-inator.netlify.app/")
             .setDescription("Created by Riley Abrahamson.")
             .setThumbnail(
                 "https://raw.githubusercontent.com/RileyAbr/In-house-inator/master/assets/in-house-inator.jpg"
