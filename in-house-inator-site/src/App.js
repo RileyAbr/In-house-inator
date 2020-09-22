@@ -5,8 +5,9 @@ import { Box, Flex } from "@chakra-ui/core";
 
 import Sidebar from "./components/Sidebar/";
 
-import commands from "./commands.json";
 import routes from "./routes";
+
+import commandsFilesMap from "./services/CommandMarkdownFileFetcher";
 
 function App() {
     return (
@@ -18,7 +19,7 @@ function App() {
             data-testid="app-container"
         >
             <Box as="aside" flex="0 0 17rem">
-                <Sidebar commands={commands} />
+                <Sidebar commands={Object.keys(commandsFilesMap)} />
             </Box>
 
             <Box as="main" flex="1" bg="scienceGrey">

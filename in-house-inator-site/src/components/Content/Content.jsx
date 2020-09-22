@@ -5,8 +5,6 @@ import ChakraMarkdown from "../ChakraMarkdown";
 
 import { Box, Divider, Heading } from "@chakra-ui/core";
 
-import commands from "../../commands.json";
-
 import { capitalizeFirstLetter } from "../../utils";
 
 import commandsFilesMap from "../../services/CommandMarkdownFileFetcher";
@@ -16,11 +14,7 @@ export default function Content() {
     const commandParam = useParams().command; //If the user is on a command page, it is stored as a query parameter labeled {command: *}
 
     useEffect(() => {
-        // The component first checks if the current URL param matches any command in the json set-up file. Then if checks if there is a matching .md file for that command name
-        if (
-            commands.includes(commandParam.toLowerCase()) &&
-            commandsFilesMap[commandParam]
-        ) {
+        if (commandsFilesMap[commandParam]) {
             fetch(commandsFilesMap[commandParam])
                 .then((res) => res.text())
                 .then((text) => setCommandDesc(text));
