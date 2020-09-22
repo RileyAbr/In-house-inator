@@ -4,7 +4,7 @@ import { Code } from "@chakra-ui/core";
 
 const CodeDisplay = (props) => {
     return (
-        <Code display="inline" m={1} fontSize={props.fontSize}>
+        <Code role="figure" display="inline" m={1} fontSize={props.fontSize}>
             {props.children}
         </Code>
     );
