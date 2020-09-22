@@ -20,7 +20,7 @@ test("Displays sample markdown file", async () => {
 
     expect(markdownHeader).toHaveTextContent("Command");
     expect(markdownCommandCode).toHaveTextContent("!in code block");
-    expect(markdownDescription).toBeInDocument();
+    expect(markdownDescription).toBeInTheDocument();
 });
 
 test("Displays no markdown file", () => {
