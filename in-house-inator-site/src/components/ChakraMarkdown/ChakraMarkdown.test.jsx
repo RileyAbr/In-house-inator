@@ -12,8 +12,6 @@ const sampleMarkdown = "# Command";
 test("Displays sample markdown file", async () => {
     render(<ChakraMarkdown source={mockMarkdownFile} />);
 
-    screen.debug();
-
     const markdownHeader = screen.getByRole("heading");
     const markdownCommandCode = screen.getByRole("figure");
     const markdownDescription = screen.getByText("Description:");
