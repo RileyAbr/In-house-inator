@@ -1,5 +1,5 @@
 `!in version`
 
-![](https://i2.wp.com/seds.org/wp-content/uploads/2020/06/placeholder.png?fit=1200%2C800&ssl=1)
+!["Discord message screenshot showing Current Release: v1.0.1"](https://raw.githubusercontent.com/RileyAbr/In-house-inator/main/markdown_images/version.JPG)
 
 Shows the bot's latest release.
