@@ -5,25 +5,29 @@ module.exports = {
     description: "Shows all of the commands available",
     execute(msg, args) {
         const helpEmbed = new Discord.MessageEmbed()
-            .setTitle("!in commands")
+            .setTitle("Bot Commands")
             .setThumbnail(
                 "https://raw.githubusercontent.com/RileyAbr/In-house-inator/master/assets/in-house-inator.jpg"
             )
             .setDescription(
-                `All commands begin with \`!in\`. Any command with \`{}\` indicates extra options for the command.`
+                `All commands begin with \`!in\`. Any command with \`{}\` indicates extra options for the command.
+                
+                Full documentation available at:
+                [https://in-house-inator.netlify.app/](https://in-house-inator.netlify.app/)
+                `
             )
-            .addFields({
-                name: "!in",
-                value: "Shorthand for !in team",
-            })
             .addFields({
                 name: "!in team {# teams} {# of players} {teamA, teamB, ...}",
                 value:
-                    "Creates an in-house match. Defaults to 2 teams of 5. Can specifiy number of teams, players, and provide a list of team names.",
+                    "Creates an in-house match. Defaults to 2 teams of 5. Can specify number of teams, players, and provide a list of team names.",
+            })
+            .addFields({
+                name: "!in",
+                value: "Shortcut for !in team",
             })
             .addFields({
                 name: "!in help",
-                value: "Lists all of the commands available",
+                value: "Lists all commands available",
             })
             .addFields({
                 name: "!in version",

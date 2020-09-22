@@ -6,9 +6,7 @@ module.exports = {
     execute(msg, args) {
         const versionEmbed = new Discord.MessageEmbed()
             .setTitle("In-house-inator Discord Bot")
-            .setURL(
-                "https://github.com/RileyAbr/rat-facts-Discord-Bot/releases/tag/v5.0.1"
-            )
+            .setURL("https://in-house-inator.netlify.app/")
             .setThumbnail(
                 "https://raw.githubusercontent.com/RileyAbr/In-house-inator/master/assets/in-house-inator.jpg"
             )
