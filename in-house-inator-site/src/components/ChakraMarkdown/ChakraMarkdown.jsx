@@ -1,9 +1,9 @@
 import React from "react";
-import ReactMarkdown from "react-markdown";
+import ReactMarkdown from "react-markdown/with-html";
 
 import CodeDisplay from "../CodeDisplay";
 
-import { Text, Image } from "@chakra-ui/core";
+import { Text, Image, Heading } from "@chakra-ui/core";
 
 const MarkdownParagraph = (props) => {
     return <Text fontSize="lg">{props.children}</Text>;
@@ -14,7 +14,15 @@ const MarkdownCode = (props) => {
 };
 
 const MarkDownImage = (props) => {
-    return <Image py={3} src={props.src} alt={props.alt} />;
+    return <Image mx="auto" py={3} src={props.src} alt={props.alt} />;
+};
+
+const MarkDownHeader = (props) => {
+    return (
+        <Heading as="h3" size="lg">
+            {props.children}
+        </Heading>
+    );
 };
 
 const ChakraMarkdown = (props) => {
@@ -23,9 +31,16 @@ const ChakraMarkdown = (props) => {
         paragraph: MarkdownParagraph,
         inlineCode: MarkdownCode,
         image: MarkDownImage,
+        heading: MarkDownHeader,
     };
 
-    return <ReactMarkdown source={props.source} renderers={chakraRenderers} />;
+    return (
+        <ReactMarkdown
+            source={props.source}
+            renderers={chakraRenderers}
+            escapeHtml={false}
+        />
+    );
 };
 
 export default ChakraMarkdown;
