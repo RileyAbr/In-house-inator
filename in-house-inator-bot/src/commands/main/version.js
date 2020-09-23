@@ -8,7 +8,7 @@ module.exports = {
             .setTitle("In-house-inator Discord Bot")
             .setURL("https://in-house-inator.netlify.app/")
             .setThumbnail(
-                "https://raw.githubusercontent.com/RileyAbr/In-house-inator/master/assets/in-house-inator.jpg"
+                "https://raw.githubusercontent.com/RileyAbr/In-house-inator/main/in-house-inator_logo.png"
             )
             .addFields({
                 name: "Current Release",

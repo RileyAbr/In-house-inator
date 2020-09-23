@@ -57,7 +57,7 @@ module.exports = {
                 let teamEmbed = new Discord.MessageEmbed()
                     .setTitle(teamNames[i] ? teamNames[i] : `Team ${i + 1}`)
                     .setThumbnail(
-                        "https://raw.githubusercontent.com/RileyAbr/In-house-inator/master/assets/in-house-inator.jpg"
+                        "https://raw.githubusercontent.com/RileyAbr/In-house-inator/main/in-house-inator_logo.png"
                     );
                 // .setDescription("<@" + msg.member.user.id + ">") Currently unused, but can ping a member in the description
 
@@ -78,7 +78,7 @@ module.exports = {
             let remainingEmbed = new Discord.MessageEmbed()
                 .setTitle("Remaining Players")
                 .setThumbnail(
-                    "https://raw.githubusercontent.com/RileyAbr/In-house-inator/master/assets/in-house-inator.jpg"
+                    "https://raw.githubusercontent.com/RileyAbr/In-house-inator/main/in-house-inator_logo.png"
                 );
 
             randomizedUsers.forEach((member, index) => {
@@ -95,7 +95,7 @@ module.exports = {
             let mutedEmbed = new Discord.MessageEmbed()
                 .setTitle("Muted Players")
                 .setThumbnail(
-                    "https://raw.githubusercontent.com/RileyAbr/In-house-inator/master/assets/in-house-inator.jpg"
+                    "https://raw.githubusercontent.com/RileyAbr/In-house-inator/main/in-house-inator_logo.png"
                 );
 
             mutedInVoice.forEach((member) => {

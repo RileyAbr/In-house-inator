@@ -9,8 +9,7 @@ module.exports = {
             .setURL("https://in-house-inator.netlify.app/")
             .setDescription("Created by Riley Abrahamson.")
             .setThumbnail(
-                "https://raw.githubusercontent.com/RileyAbr/In-house-inator/master/assets/in-house-inator.jpg"
-            )
+                "https://raw.githubusercontent.com/RileyAbr/In-house-inator/main/in-house-inator_logo.png"
             .addFields({
                 name: "Riley's Website",
                 value: "www.rileyabrahamson.com",

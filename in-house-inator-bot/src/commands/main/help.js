@@ -7,7 +7,7 @@ module.exports = {
         const helpEmbed = new Discord.MessageEmbed()
             .setTitle("Bot Commands")
             .setThumbnail(
-                "https://raw.githubusercontent.com/RileyAbr/In-house-inator/master/assets/in-house-inator.jpg"
+                "https://raw.githubusercontent.com/RileyAbr/In-house-inator/main/in-house-inator_logo.png"
             )
             .setDescription(
                 `All commands begin with \`!in\`. Any command with \`{}\` indicates extra options for the command.
