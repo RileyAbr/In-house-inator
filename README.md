@@ -1,5 +1,7 @@
 # In-house-inator
 
+![Ray gun next to text displaying "In-house-inator"](https://raw.githubusercontent.com/RileyAbr/In-house-inator/main/assets/In-house-inator%20social.jpg)
+
 The `In-house-inator` is a Discord bot designed to help faciliate in-house matches for gaming communities. The bot can build teams on the spot using members in voice chat to streamline the lobby-making process. With a robust set of commands available, the `In-house-inator` is ready for your next LAN party.
 
 📚 Read the commands wiki [https://in-house-inator.netlify.app/](https://in-house-inator.netlify.app/)
