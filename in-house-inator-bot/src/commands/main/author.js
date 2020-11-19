@@ -10,21 +10,21 @@ module.exports = {
             .setDescription("Created by Riley Abrahamson.")
             .setThumbnail(
                 "https://raw.githubusercontent.com/RileyAbr/In-house-inator/main/in-house-inator_logo.png"
-            .addFields({
-                name: "Riley's Website",
-                value: "www.rileyabrahamson.com",
-            })
-            .addFields({
-                name: "Twitter",
-                value: "@RileyAbrahamson",
-            })
-            .addFields({
-                name: "GitHub",
-                value: "RileyAbr",
-            })
-            .setFooter(
-                "Icon 'Machine' by iconcheese from the Noun Project. Icon 'House' by Alex Muravev from the Noun Project."
-            );
+                    .addFields({
+                        name: "Riley's Website",
+                        value: "www.rileyabrahamson.com",
+                    })
+                    .addFields({
+                        name: "Twitter",
+                        value: "@RileyAbrahamson",
+                    })
+                    .addFields({
+                        name: "GitHub",
+                        value: "RileyAbr",
+                    })
+                    .setFooter(
+                        "Icon 'Machine' by iconcheese from the Noun Project. Icon 'House' by Alex Muravev from the Noun Project."
+                    ));
 
         msg.channel.send(authorEmbed);
     },
