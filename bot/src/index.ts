@@ -1,8 +1,8 @@
 import { Client, GatewayIntentBits } from 'discord.js'
 import * as dotenv from 'dotenv'
+import ready from './listeners/ready'
 // import guildCreate from './listeners/guildCreate'
-// import interactionCreate from './listeners/interactionCreate'
-// import ready from './listeners/ready'
+import interactionCreate from './listeners/interactionCreate'
 
 dotenv.config()
 
@@ -22,6 +22,6 @@ if (process.env.NODE_ENV === 'production') {
   client.login(process.env.DEV_BOT_TOKEN)
 }
 
-// ready(client)
+ready(client)
 // guildCreate(client)
-// interactionCreate(client)
+interactionCreate(client)
