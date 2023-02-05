@@ -1,5 +1,6 @@
 import {
   APIEmbed,
+  ApplicationCommandOptionType,
   ApplicationCommandType,
   Client,
   CommandInteraction,
@@ -20,6 +21,22 @@ export const team: Command = {
   description:
     'Create a team from users in voice channel. Skips deafened users.',
   type: ApplicationCommandType.ChatInput,
+  options: [
+    {
+      name: 'teams',
+      description: 'The number of teams. Defaults to 2.',
+      type: ApplicationCommandOptionType.Number,
+      minValue: 1,
+      maxValue: 25,
+    },
+    {
+      name: 'players',
+      description: 'The amount of players per team. Defaults to 5.',
+      type: ApplicationCommandOptionType.Number,
+      min_value: 1,
+      maxValue: 25,
+    },
+  ],
   run: async (client: Client, interaction: CommandInteraction) => {
     const invokingMember = interaction.member as GuildMember
 
@@ -34,22 +51,23 @@ export const team: Command = {
 
     const voiceChannel = invokingMember.voice.channel
 
-    const maxTeams = 2
-    const maxPlayers = 5
+    const teamsInput = interaction.options.get('teams')?.value as
+      | number
+      | undefined
+    const playersInput = interaction.options.get('players')?.value as
+      | number
+      | undefined
+
+    const maxTeams = teamsInput ? teamsInput : 2
+    const maxPlayers = playersInput ? playersInput : 5
     let additionalMessageContent = null
 
-    const membersInVoice = voiceChannel.members.map(member => {
-      if (!member.user.bot && !member.voice.deaf) {
-        return member
-      }
-    })
-    const deafenedInVoice = voiceChannel.members.map(member => {
-      if (!member.user.bot && member.voice.deaf) {
-        return member
-      }
-    })
-
-    console.log(deafenedInVoice)
+    const membersInVoice = voiceChannel.members
+      .filter(member => !member.user.bot && !member.voice.deaf)
+      .map(member => member)
+    const deafenedInVoice = voiceChannel.members
+      .filter(member => !member.user.bot && member.voice.deaf)
+      .map(member => member)
 
     if (membersInVoice.length < maxTeams * maxPlayers) {
       additionalMessageContent =
@@ -59,9 +77,6 @@ export const team: Command = {
     const embeds: (APIEmbed | JSONEncodable<APIEmbed>)[] = []
 
     const randomizeMembersInVoice = shuffleMembers(membersInVoice)
-
-    console.log(membersInVoice)
-    console.log(randomizeMembersInVoice)
 
     for (let i = 0; i < maxTeams; i++) {
       if (randomizeMembersInVoice.length > 0) {
@@ -86,7 +101,7 @@ export const team: Command = {
 
     if (randomizeMembersInVoice.length > 0) {
       const remainingEmbed = new EmbedBuilder()
-        .setColor(secondaryEmbedColor)
+        .setColor(embedColor)
         .setTitle(`Remaining Players`)
         .setThumbnail(embedThumbnail)
 
@@ -100,9 +115,12 @@ export const team: Command = {
       embeds.push(remainingEmbed)
     }
 
-    if (deafenedInVoice && deafenedInVoice.length > 0) {
+    if (
+      !deafenedInVoice.every(member => member === undefined) &&
+      deafenedInVoice.length > 0
+    ) {
       const deafenedEmbed = new EmbedBuilder()
-        .setColor(embedColor)
+        .setColor(secondaryEmbedColor)
         .setTitle(`Deafened Players`)
         .setThumbnail(embedThumbnail)
 
