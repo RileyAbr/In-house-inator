@@ -4,8 +4,27 @@
     "description": "A Discord bot for creating teams on the fly",
     "main": "index.ts",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "tsc --build",
+        "start": "env NODE_ENV=production ts-node ./src/index.ts",
+        "dev": "nodemon ./src/index.ts"
     },
     "author": "Riley Abrahamson",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^14.7.1",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "ts-node": "^10.9.1"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.19",
+        "eslint": "^8.33.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-n": "^15.6.1",
+        "eslint-plugin-promise": "^6.1.1",
+        "nodemon": "^2.0.20",
+        "prettier": "^2.8.3",
+        "typescript": "^4.9.5"
+    }
 }
