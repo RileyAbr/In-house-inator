@@ -4,6 +4,7 @@ const logoPurple = '#6f2dbd'
 const logoGreen = '#6bd425'
 
 export const embedColor = logoPurple
+export const secondaryEmbedColor = logoGreen
 
 export const embedThumbnail =
   'https://raw.githubusercontent.com/RileyAbr/In-house-inator/main/in-house-inator_logo.png'
