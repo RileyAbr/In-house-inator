@@ -1,2 +1,2 @@
 [build]
-base = "./in-house-inator-site/"
+base = "./site/"
