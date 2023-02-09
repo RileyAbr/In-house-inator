@@ -1,19 +1,19 @@
-import React from "react";
-import { Redirect, Route, Switch } from "react-router-dom";
+import React from 'react';
+import { Redirect, Route, Switch } from 'react-router-dom';
 
-import { Box, Flex } from "@chakra-ui/core";
+import { Box, Flex } from '@chakra-ui/core';
 
-import Sidebar from "./components/Sidebar/";
+import Sidebar from './components/Sidebar/';
 
-import routes from "./routes";
+import routes from './routes';
 
-import commandsFilesMap from "./services/CommandMarkdownFileFetcher";
+import commandsFilesMap from './services/CommandMarkdownFileFetcher';
 
 function App() {
     return (
         <Flex
             height="100vh"
-            flexDir={["column", "column", "row"]}
+            flexDir={['column', 'column', 'row']}
             bg="scienceBlack"
             color="scienceWhite"
             data-testid="app-container"

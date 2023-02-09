@@ -1,28 +1,28 @@
-import React from "react";
-import { NavLink as ReactRouterLink } from "react-router-dom";
+import React from 'react';
+import { NavLink as ReactRouterLink } from 'react-router-dom';
 
-import logo from "../../in-house-inator_logo.png";
+import logo from '../../in-house-inator_logo.png';
 
 import {
     Flex,
-    Image,
     Heading,
-    VStack,
-    UnorderedList,
-    ListItem,
+    Image,
     Link,
-} from "@chakra-ui/core";
+    ListItem,
+    UnorderedList,
+    VStack,
+} from '@chakra-ui/core';
 
-import Credits from "../Credits";
+import Credits from '../Credits';
 
-import { capitalizeFirstLetter } from "../../utils";
+import { capitalizeFirstLetter } from '../../utils';
 
 const LogoMasthead = () => {
     return (
         <Flex
             as={ReactRouterLink}
             to="/"
-            alignItems={["center", "center", "normal"]}
+            alignItems={['center', 'center', 'normal']}
             role="group"
         >
             <Image
@@ -34,8 +34,8 @@ const LogoMasthead = () => {
                 marginBottom="4px"
                 // transition="600ms"
                 _groupHover={{
-                    transform: "rotate(360deg)",
-                    transition: "600ms",
+                    transform: 'rotate(360deg)',
+                    transition: '600ms',
                 }}
             />
             <Heading
@@ -45,18 +45,18 @@ const LogoMasthead = () => {
                 _after={{
                     // In regular CSS one can just do the empty quotes, but the Chakra compiler reads this as completely empty and won't attach the empty content
                     content: `""`,
-                    display: "block",
-                    bottom: "-10px",
-                    width: "0px",
-                    height: "4px",
-                    bg: "sciencePurple.500",
-                    transition: "250ms",
+                    display: 'block',
+                    bottom: '-10px',
+                    width: '0px',
+                    height: '4px',
+                    bg: 'sciencePurple.500',
+                    transition: '250ms',
                 }}
                 _focus={{
-                    _after: { width: "100%", transition: "250ms" },
+                    _after: { width: '100%', transition: '250ms' },
                 }}
                 _groupHover={{
-                    _after: { width: "100%", transition: "250ms" },
+                    _after: { width: '100%', transition: '250ms' },
                 }}
             >
                 In-house-inator
@@ -70,7 +70,7 @@ const CommandNavLinks = (props) => {
     return (
         <UnorderedList
             w="100%"
-            fontSize="2xl"
+            fontSize="1.65rem"
             fontFamily="heading"
             listStyleType="none"
             color="scienceGreen.500"
@@ -78,7 +78,11 @@ const CommandNavLinks = (props) => {
             {props.commands &&
                 props.commands.map((command, i) => {
                     return (
-                        <ListItem position="relative" paddingLeft={2} key={i}>
+                        <ListItem
+                            position="relative"
+                            paddingLeft={2}
+                            key={command}
+                        >
                             <Link
                                 as={ReactRouterLink}
                                 to={command}
@@ -87,31 +91,31 @@ const CommandNavLinks = (props) => {
                                 _after={{
                                     // In regular CSS one can just do the empty quotes, but the Chakra compiler reads this as completely empty and won't attach the empty content
                                     content: `""`,
-                                    display: "block",
-                                    position: "absolute",
-                                    top: "0px",
-                                    left: "-2",
-                                    width: "0px",
-                                    height: "100%",
-                                    bg: "scienceGreen.500",
-                                    transition: "250ms",
+                                    display: 'block',
+                                    position: 'absolute',
+                                    top: '0px',
+                                    left: '-2',
+                                    width: '0px',
+                                    height: '100%',
+                                    bg: 'scienceGreen.500',
+                                    transition: '250ms',
                                 }}
                                 _hover={{
                                     _after: {
-                                        width: "10px",
-                                        transition: "250ms",
+                                        width: '10px',
+                                        transition: '250ms',
                                     },
                                 }}
                                 _focus={{
                                     _after: {
-                                        width: "10px",
-                                        transition: "250ms",
+                                        width: '10px',
+                                        transition: '250ms',
                                     },
                                 }}
                                 _activeLink={{
                                     _after: {
-                                        width: "10px",
-                                        transition: "250ms",
+                                        width: '10px',
+                                        transition: '250ms',
                                     },
                                 }}
                             >
