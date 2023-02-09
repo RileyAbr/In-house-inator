@@ -12,7 +12,7 @@ The `In-house-inator` is a Discord bot designed to help faciliate in-house match
 
 ## In-house-inator Bot
 
-The `bot` folder contains all of the code used to run the Discord bot. The bot is built in **Node** using the [Discord.js library](https://discord.js.org/#/).
+The `bot` folder contains all of the code used to run the Discord bot. The bot is built in **Node** using the [Discord.js library](https://discord.js.org/#/). Additionally, the bot is written entirely in TypeScript.
 
 ### Features
 
