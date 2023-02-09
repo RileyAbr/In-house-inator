@@ -11,6 +11,7 @@ import {
   embedThumbnail,
 } from '../data/embedVariables'
 import { author } from './author'
+import { split } from './split'
 import { team } from './team'
 import { version } from './version'
 const helpName = 'help'
@@ -30,6 +31,10 @@ export const help: Command = {
         {
           name: '/' + team.name,
           value: team.description,
+        },
+        {
+          name: '/' + split.name,
+          value: split.description,
         },
         {
           name: '/' + author.name,
