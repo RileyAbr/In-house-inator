@@ -27,13 +27,19 @@ export const help: Command = {
       .setColor(embedColor)
       .setTitle('`in-house-inator` commands')
       .setThumbnail(embedThumbnail)
+      .setDescription(
+        `All command are invoked with \`/\`. Any command with \`{}\` indicates extra options for the command. 
+                
+                Full documentation available at:
+                [https://in-house-inator.netlify.app/](https://in-house-inator.netlify.app/)`,
+      )
       .addFields(
         {
-          name: '/' + team.name,
+          name: '/' + team.name + ' {teams} {players}',
           value: team.description,
         },
         {
-          name: '/' + split.name,
+          name: '/' + split.name + ' {teams}',
           value: split.description,
         },
         {
