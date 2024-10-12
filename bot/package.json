@@ -2,7 +2,7 @@
   "name": "in-house-inator",
   "version": "3.0.0",
   "description": "A Discord bot for creating teams on the fly",
-  "main": "./dist/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "tsc --build",
     "start": "env NODE_ENV=production ts-node ./src/index.ts",
