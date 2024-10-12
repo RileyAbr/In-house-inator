@@ -1,0 +1,2522 @@
+[
+  {
+    "id": "Aatrox",
+    "key": "266",
+    "name": "Aatrox",
+    "title": "the Darkin Blade",
+    "image": {
+      "full": "Aatrox.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 0,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Ahri",
+    "key": "103",
+    "name": "Ahri",
+    "title": "the Nine-Tailed Fox",
+    "image": {
+      "full": "Ahri.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 48,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Akali",
+    "key": "84",
+    "name": "Akali",
+    "title": "the Rogue Assassin",
+    "image": {
+      "full": "Akali.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 96,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Akshan",
+    "key": "166",
+    "name": "Akshan",
+    "title": "the Rogue Sentinel",
+    "image": {
+      "full": "Akshan.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 144,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Alistar",
+    "key": "12",
+    "name": "Alistar",
+    "title": "the Minotaur",
+    "image": {
+      "full": "Alistar.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 192,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Amumu",
+    "key": "32",
+    "name": "Amumu",
+    "title": "the Sad Mummy",
+    "image": {
+      "full": "Amumu.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 240,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Anivia",
+    "key": "34",
+    "name": "Anivia",
+    "title": "the Cryophoenix",
+    "image": {
+      "full": "Anivia.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 288,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Annie",
+    "key": "1",
+    "name": "Annie",
+    "title": "the Dark Child",
+    "image": {
+      "full": "Annie.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 336,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Aphelios",
+    "key": "523",
+    "name": "Aphelios",
+    "title": "the Weapon of the Faithful",
+    "image": {
+      "full": "Aphelios.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 384,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Ashe",
+    "key": "22",
+    "name": "Ashe",
+    "title": "the Frost Archer",
+    "image": {
+      "full": "Ashe.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 432,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "AurelionSol",
+    "key": "136",
+    "name": "Aurelion Sol",
+    "title": "The Star Forger",
+    "image": {
+      "full": "AurelionSol.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 0,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Aurora",
+    "key": "893",
+    "name": "Aurora",
+    "title": "the Witch Between Worlds",
+    "image": {
+      "full": "Aurora.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 48,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Azir",
+    "key": "268",
+    "name": "Azir",
+    "title": "the Emperor of the Sands",
+    "image": {
+      "full": "Azir.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 96,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Bard",
+    "key": "432",
+    "name": "Bard",
+    "title": "the Wandering Caretaker",
+    "image": {
+      "full": "Bard.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 144,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Belveth",
+    "key": "200",
+    "name": "Bel'Veth",
+    "title": "the Empress of the Void",
+    "image": {
+      "full": "Belveth.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 192,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Blitzcrank",
+    "key": "53",
+    "name": "Blitzcrank",
+    "title": "the Great Steam Golem",
+    "image": {
+      "full": "Blitzcrank.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 240,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Brand",
+    "key": "63",
+    "name": "Brand",
+    "title": "the Burning Vengeance",
+    "image": {
+      "full": "Brand.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 288,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Braum",
+    "key": "201",
+    "name": "Braum",
+    "title": "the Heart of the Freljord",
+    "image": {
+      "full": "Braum.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 336,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Briar",
+    "key": "233",
+    "name": "Briar",
+    "title": "the Restrained Hunger",
+    "image": {
+      "full": "Briar.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 384,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Caitlyn",
+    "key": "51",
+    "name": "Caitlyn",
+    "title": "the Sheriff of Piltover",
+    "image": {
+      "full": "Caitlyn.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 432,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Camille",
+    "key": "164",
+    "name": "Camille",
+    "title": "the Steel Shadow",
+    "image": {
+      "full": "Camille.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 0,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Cassiopeia",
+    "key": "69",
+    "name": "Cassiopeia",
+    "title": "the Serpent's Embrace",
+    "image": {
+      "full": "Cassiopeia.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 48,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Chogath",
+    "key": "31",
+    "name": "Cho'Gath",
+    "title": "the Terror of the Void",
+    "image": {
+      "full": "Chogath.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 96,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Corki",
+    "key": "42",
+    "name": "Corki",
+    "title": "the Daring Bombardier",
+    "image": {
+      "full": "Corki.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 144,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Darius",
+    "key": "122",
+    "name": "Darius",
+    "title": "the Hand of Noxus",
+    "image": {
+      "full": "Darius.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 192,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Diana",
+    "key": "131",
+    "name": "Diana",
+    "title": "Scorn of the Moon",
+    "image": {
+      "full": "Diana.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 240,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Draven",
+    "key": "119",
+    "name": "Draven",
+    "title": "the Glorious Executioner",
+    "image": {
+      "full": "Draven.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 288,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "DrMundo",
+    "key": "36",
+    "name": "Dr. Mundo",
+    "title": "the Madman of Zaun",
+    "image": {
+      "full": "DrMundo.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 336,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Ekko",
+    "key": "245",
+    "name": "Ekko",
+    "title": "the Boy Who Shattered Time",
+    "image": {
+      "full": "Ekko.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 384,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Elise",
+    "key": "60",
+    "name": "Elise",
+    "title": "the Spider Queen",
+    "image": {
+      "full": "Elise.png",
+      "sprite": "champion0.png",
+      "group": "champion",
+      "x": 432,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Evelynn",
+    "key": "28",
+    "name": "Evelynn",
+    "title": "Agony's Embrace",
+    "image": {
+      "full": "Evelynn.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 0,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Ezreal",
+    "key": "81",
+    "name": "Ezreal",
+    "title": "the Prodigal Explorer",
+    "image": {
+      "full": "Ezreal.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 48,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Fiddlesticks",
+    "key": "9",
+    "name": "Fiddlesticks",
+    "title": "the Ancient Fear",
+    "image": {
+      "full": "Fiddlesticks.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 96,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Fiora",
+    "key": "114",
+    "name": "Fiora",
+    "title": "the Grand Duelist",
+    "image": {
+      "full": "Fiora.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 144,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Fizz",
+    "key": "105",
+    "name": "Fizz",
+    "title": "the Tidal Trickster",
+    "image": {
+      "full": "Fizz.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 192,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Galio",
+    "key": "3",
+    "name": "Galio",
+    "title": "the Colossus",
+    "image": {
+      "full": "Galio.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 240,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Gangplank",
+    "key": "41",
+    "name": "Gangplank",
+    "title": "the Saltwater Scourge",
+    "image": {
+      "full": "Gangplank.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 288,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Garen",
+    "key": "86",
+    "name": "Garen",
+    "title": "The Might of Demacia",
+    "image": {
+      "full": "Garen.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 336,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Gnar",
+    "key": "150",
+    "name": "Gnar",
+    "title": "the Missing Link",
+    "image": {
+      "full": "Gnar.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 384,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Gragas",
+    "key": "79",
+    "name": "Gragas",
+    "title": "the Rabble Rouser",
+    "image": {
+      "full": "Gragas.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 432,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Graves",
+    "key": "104",
+    "name": "Graves",
+    "title": "the Outlaw",
+    "image": {
+      "full": "Graves.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 0,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Gwen",
+    "key": "887",
+    "name": "Gwen",
+    "title": "The Hallowed Seamstress",
+    "image": {
+      "full": "Gwen.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 48,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Hecarim",
+    "key": "120",
+    "name": "Hecarim",
+    "title": "the Shadow of War",
+    "image": {
+      "full": "Hecarim.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 96,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Heimerdinger",
+    "key": "74",
+    "name": "Heimerdinger",
+    "title": "the Revered Inventor",
+    "image": {
+      "full": "Heimerdinger.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 144,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Hwei",
+    "key": "910",
+    "name": "Hwei",
+    "title": "the Visionary",
+    "image": {
+      "full": "Hwei.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 192,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Illaoi",
+    "key": "420",
+    "name": "Illaoi",
+    "title": "the Kraken Priestess",
+    "image": {
+      "full": "Illaoi.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 240,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Irelia",
+    "key": "39",
+    "name": "Irelia",
+    "title": "the Blade Dancer",
+    "image": {
+      "full": "Irelia.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 288,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Ivern",
+    "key": "427",
+    "name": "Ivern",
+    "title": "the Green Father",
+    "image": {
+      "full": "Ivern.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 336,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Janna",
+    "key": "40",
+    "name": "Janna",
+    "title": "the Storm's Fury",
+    "image": {
+      "full": "Janna.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 384,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "JarvanIV",
+    "key": "59",
+    "name": "Jarvan IV",
+    "title": "the Exemplar of Demacia",
+    "image": {
+      "full": "JarvanIV.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 432,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Jax",
+    "key": "24",
+    "name": "Jax",
+    "title": "Grandmaster at Arms",
+    "image": {
+      "full": "Jax.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 0,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Jayce",
+    "key": "126",
+    "name": "Jayce",
+    "title": "the Defender of Tomorrow",
+    "image": {
+      "full": "Jayce.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 48,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Jhin",
+    "key": "202",
+    "name": "Jhin",
+    "title": "the Virtuoso",
+    "image": {
+      "full": "Jhin.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 96,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Jinx",
+    "key": "222",
+    "name": "Jinx",
+    "title": "the Loose Cannon",
+    "image": {
+      "full": "Jinx.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 144,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Kaisa",
+    "key": "145",
+    "name": "Kai'Sa",
+    "title": "Daughter of the Void",
+    "image": {
+      "full": "Kaisa.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 192,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Kalista",
+    "key": "429",
+    "name": "Kalista",
+    "title": "the Spear of Vengeance",
+    "image": {
+      "full": "Kalista.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 240,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Karma",
+    "key": "43",
+    "name": "Karma",
+    "title": "the Enlightened One",
+    "image": {
+      "full": "Karma.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 288,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Karthus",
+    "key": "30",
+    "name": "Karthus",
+    "title": "the Deathsinger",
+    "image": {
+      "full": "Karthus.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 336,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Kassadin",
+    "key": "38",
+    "name": "Kassadin",
+    "title": "the Void Walker",
+    "image": {
+      "full": "Kassadin.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 384,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Katarina",
+    "key": "55",
+    "name": "Katarina",
+    "title": "the Sinister Blade",
+    "image": {
+      "full": "Katarina.png",
+      "sprite": "champion1.png",
+      "group": "champion",
+      "x": 432,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Kayle",
+    "key": "10",
+    "name": "Kayle",
+    "title": "the Righteous",
+    "image": {
+      "full": "Kayle.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 0,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Kayn",
+    "key": "141",
+    "name": "Kayn",
+    "title": "the Shadow Reaper",
+    "image": {
+      "full": "Kayn.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 48,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Kennen",
+    "key": "85",
+    "name": "Kennen",
+    "title": "the Heart of the Tempest",
+    "image": {
+      "full": "Kennen.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 96,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Khazix",
+    "key": "121",
+    "name": "Kha'Zix",
+    "title": "the Voidreaver",
+    "image": {
+      "full": "Khazix.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 144,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Kindred",
+    "key": "203",
+    "name": "Kindred",
+    "title": "The Eternal Hunters",
+    "image": {
+      "full": "Kindred.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 192,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Kled",
+    "key": "240",
+    "name": "Kled",
+    "title": "the Cantankerous Cavalier",
+    "image": {
+      "full": "Kled.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 240,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "KogMaw",
+    "key": "96",
+    "name": "Kog'Maw",
+    "title": "the Mouth of the Abyss",
+    "image": {
+      "full": "KogMaw.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 288,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "KSante",
+    "key": "897",
+    "name": "K'Sante",
+    "title": "the Pride of Nazumah",
+    "image": {
+      "full": "KSante.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 336,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Leblanc",
+    "key": "7",
+    "name": "LeBlanc",
+    "title": "the Deceiver",
+    "image": {
+      "full": "Leblanc.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 384,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "LeeSin",
+    "key": "64",
+    "name": "Lee Sin",
+    "title": "the Blind Monk",
+    "image": {
+      "full": "LeeSin.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 432,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Leona",
+    "key": "89",
+    "name": "Leona",
+    "title": "the Radiant Dawn",
+    "image": {
+      "full": "Leona.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 0,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Lillia",
+    "key": "876",
+    "name": "Lillia",
+    "title": "the Bashful Bloom",
+    "image": {
+      "full": "Lillia.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 48,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Lissandra",
+    "key": "127",
+    "name": "Lissandra",
+    "title": "the Ice Witch",
+    "image": {
+      "full": "Lissandra.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 96,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Lucian",
+    "key": "236",
+    "name": "Lucian",
+    "title": "the Purifier",
+    "image": {
+      "full": "Lucian.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 144,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Lulu",
+    "key": "117",
+    "name": "Lulu",
+    "title": "the Fae Sorceress",
+    "image": {
+      "full": "Lulu.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 192,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Lux",
+    "key": "99",
+    "name": "Lux",
+    "title": "the Lady of Luminosity",
+    "image": {
+      "full": "Lux.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 240,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Malphite",
+    "key": "54",
+    "name": "Malphite",
+    "title": "Shard of the Monolith",
+    "image": {
+      "full": "Malphite.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 288,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Malzahar",
+    "key": "90",
+    "name": "Malzahar",
+    "title": "the Prophet of the Void",
+    "image": {
+      "full": "Malzahar.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 336,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Maokai",
+    "key": "57",
+    "name": "Maokai",
+    "title": "the Twisted Treant",
+    "image": {
+      "full": "Maokai.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 384,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "MasterYi",
+    "key": "11",
+    "name": "Master Yi",
+    "title": "the Wuju Bladesman",
+    "image": {
+      "full": "MasterYi.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 432,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Milio",
+    "key": "902",
+    "name": "Milio",
+    "title": "The Gentle Flame",
+    "image": {
+      "full": "Milio.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 0,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "MissFortune",
+    "key": "21",
+    "name": "Miss Fortune",
+    "title": "the Bounty Hunter",
+    "image": {
+      "full": "MissFortune.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 48,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "MonkeyKing",
+    "key": "62",
+    "name": "Wukong",
+    "title": "the Monkey King",
+    "image": {
+      "full": "MonkeyKing.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 96,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Mordekaiser",
+    "key": "82",
+    "name": "Mordekaiser",
+    "title": "the Iron Revenant",
+    "image": {
+      "full": "Mordekaiser.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 144,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Morgana",
+    "key": "25",
+    "name": "Morgana",
+    "title": "the Fallen",
+    "image": {
+      "full": "Morgana.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 192,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Naafiri",
+    "key": "950",
+    "name": "Naafiri",
+    "title": "the Hound of a Hundred Bites",
+    "image": {
+      "full": "Naafiri.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 240,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Nami",
+    "key": "267",
+    "name": "Nami",
+    "title": "the Tidecaller",
+    "image": {
+      "full": "Nami.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 288,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Nasus",
+    "key": "75",
+    "name": "Nasus",
+    "title": "the Curator of the Sands",
+    "image": {
+      "full": "Nasus.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 336,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Nautilus",
+    "key": "111",
+    "name": "Nautilus",
+    "title": "the Titan of the Depths",
+    "image": {
+      "full": "Nautilus.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 384,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Neeko",
+    "key": "518",
+    "name": "Neeko",
+    "title": "the Curious Chameleon",
+    "image": {
+      "full": "Neeko.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "x": 432,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Nidalee",
+    "key": "76",
+    "name": "Nidalee",
+    "title": "the Bestial Huntress",
+    "image": {
+      "full": "Nidalee.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 0,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Nilah",
+    "key": "895",
+    "name": "Nilah",
+    "title": "the Joy Unbound",
+    "image": {
+      "full": "Nilah.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 48,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Nocturne",
+    "key": "56",
+    "name": "Nocturne",
+    "title": "the Eternal Nightmare",
+    "image": {
+      "full": "Nocturne.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 96,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Nunu",
+    "key": "20",
+    "name": "Nunu & Willump",
+    "title": "the Boy and His Yeti",
+    "image": {
+      "full": "Nunu.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 144,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Olaf",
+    "key": "2",
+    "name": "Olaf",
+    "title": "the Berserker",
+    "image": {
+      "full": "Olaf.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 192,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Orianna",
+    "key": "61",
+    "name": "Orianna",
+    "title": "the Lady of Clockwork",
+    "image": {
+      "full": "Orianna.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 240,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Ornn",
+    "key": "516",
+    "name": "Ornn",
+    "title": "The Fire below the Mountain",
+    "image": {
+      "full": "Ornn.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 288,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Pantheon",
+    "key": "80",
+    "name": "Pantheon",
+    "title": "the Unbreakable Spear",
+    "image": {
+      "full": "Pantheon.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 336,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Poppy",
+    "key": "78",
+    "name": "Poppy",
+    "title": "Keeper of the Hammer",
+    "image": {
+      "full": "Poppy.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 384,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Pyke",
+    "key": "555",
+    "name": "Pyke",
+    "title": "the Bloodharbor Ripper",
+    "image": {
+      "full": "Pyke.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 432,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Qiyana",
+    "key": "246",
+    "name": "Qiyana",
+    "title": "Empress of the Elements",
+    "image": {
+      "full": "Qiyana.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 0,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Quinn",
+    "key": "133",
+    "name": "Quinn",
+    "title": "Demacia's Wings",
+    "image": {
+      "full": "Quinn.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 48,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Rakan",
+    "key": "497",
+    "name": "Rakan",
+    "title": "The Charmer",
+    "image": {
+      "full": "Rakan.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 96,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Rammus",
+    "key": "33",
+    "name": "Rammus",
+    "title": "the Armordillo",
+    "image": {
+      "full": "Rammus.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 144,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "RekSai",
+    "key": "421",
+    "name": "Rek'Sai",
+    "title": "the Void Burrower",
+    "image": {
+      "full": "RekSai.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 192,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Rell",
+    "key": "526",
+    "name": "Rell",
+    "title": "the Iron Maiden",
+    "image": {
+      "full": "Rell.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 240,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Renata",
+    "key": "888",
+    "name": "Renata Glasc",
+    "title": "the Chem-Baroness",
+    "image": {
+      "full": "Renata.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 288,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Renekton",
+    "key": "58",
+    "name": "Renekton",
+    "title": "the Butcher of the Sands",
+    "image": {
+      "full": "Renekton.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 336,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Rengar",
+    "key": "107",
+    "name": "Rengar",
+    "title": "the Pridestalker",
+    "image": {
+      "full": "Rengar.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 384,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Riven",
+    "key": "92",
+    "name": "Riven",
+    "title": "the Exile",
+    "image": {
+      "full": "Riven.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 432,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Rumble",
+    "key": "68",
+    "name": "Rumble",
+    "title": "the Mechanized Menace",
+    "image": {
+      "full": "Rumble.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 0,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Ryze",
+    "key": "13",
+    "name": "Ryze",
+    "title": "the Rune Mage",
+    "image": {
+      "full": "Ryze.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 48,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Samira",
+    "key": "360",
+    "name": "Samira",
+    "title": "the Desert Rose",
+    "image": {
+      "full": "Samira.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 96,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Sejuani",
+    "key": "113",
+    "name": "Sejuani",
+    "title": "Fury of the North",
+    "image": {
+      "full": "Sejuani.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 144,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Senna",
+    "key": "235",
+    "name": "Senna",
+    "title": "the Redeemer",
+    "image": {
+      "full": "Senna.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 192,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Seraphine",
+    "key": "147",
+    "name": "Seraphine",
+    "title": "the Starry-Eyed Songstress",
+    "image": {
+      "full": "Seraphine.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 240,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Sett",
+    "key": "875",
+    "name": "Sett",
+    "title": "the Boss",
+    "image": {
+      "full": "Sett.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 288,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Shaco",
+    "key": "35",
+    "name": "Shaco",
+    "title": "the Demon Jester",
+    "image": {
+      "full": "Shaco.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 336,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Shen",
+    "key": "98",
+    "name": "Shen",
+    "title": "the Eye of Twilight",
+    "image": {
+      "full": "Shen.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 384,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Shyvana",
+    "key": "102",
+    "name": "Shyvana",
+    "title": "the Half-Dragon",
+    "image": {
+      "full": "Shyvana.png",
+      "sprite": "champion3.png",
+      "group": "champion",
+      "x": 432,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Singed",
+    "key": "27",
+    "name": "Singed",
+    "title": "the Mad Chemist",
+    "image": {
+      "full": "Singed.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 0,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Sion",
+    "key": "14",
+    "name": "Sion",
+    "title": "The Undead Juggernaut",
+    "image": {
+      "full": "Sion.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 48,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Sivir",
+    "key": "15",
+    "name": "Sivir",
+    "title": "the Battle Mistress",
+    "image": {
+      "full": "Sivir.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 96,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Skarner",
+    "key": "72",
+    "name": "Skarner",
+    "title": "the Primordial Sovereign",
+    "image": {
+      "full": "Skarner.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 144,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Smolder",
+    "key": "901",
+    "name": "Smolder",
+    "title": "the Fiery Fledgling",
+    "image": {
+      "full": "Smolder.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 192,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Sona",
+    "key": "37",
+    "name": "Sona",
+    "title": "Maven of the Strings",
+    "image": {
+      "full": "Sona.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 240,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Soraka",
+    "key": "16",
+    "name": "Soraka",
+    "title": "the Starchild",
+    "image": {
+      "full": "Soraka.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 288,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Swain",
+    "key": "50",
+    "name": "Swain",
+    "title": "the Noxian Grand General",
+    "image": {
+      "full": "Swain.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 336,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Sylas",
+    "key": "517",
+    "name": "Sylas",
+    "title": "the Unshackled",
+    "image": {
+      "full": "Sylas.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 384,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Syndra",
+    "key": "134",
+    "name": "Syndra",
+    "title": "the Dark Sovereign",
+    "image": {
+      "full": "Syndra.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 432,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "TahmKench",
+    "key": "223",
+    "name": "Tahm Kench",
+    "title": "The River King",
+    "image": {
+      "full": "TahmKench.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 0,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Taliyah",
+    "key": "163",
+    "name": "Taliyah",
+    "title": "the Stoneweaver",
+    "image": {
+      "full": "Taliyah.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 48,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Talon",
+    "key": "91",
+    "name": "Talon",
+    "title": "the Blade's Shadow",
+    "image": {
+      "full": "Talon.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 96,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Taric",
+    "key": "44",
+    "name": "Taric",
+    "title": "the Shield of Valoran",
+    "image": {
+      "full": "Taric.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 144,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Teemo",
+    "key": "17",
+    "name": "Teemo",
+    "title": "the Swift Scout",
+    "image": {
+      "full": "Teemo.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 192,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Thresh",
+    "key": "412",
+    "name": "Thresh",
+    "title": "the Chain Warden",
+    "image": {
+      "full": "Thresh.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 240,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Tristana",
+    "key": "18",
+    "name": "Tristana",
+    "title": "the Yordle Gunner",
+    "image": {
+      "full": "Tristana.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 288,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Trundle",
+    "key": "48",
+    "name": "Trundle",
+    "title": "the Troll King",
+    "image": {
+      "full": "Trundle.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 336,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Tryndamere",
+    "key": "23",
+    "name": "Tryndamere",
+    "title": "the Barbarian King",
+    "image": {
+      "full": "Tryndamere.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 384,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "TwistedFate",
+    "key": "4",
+    "name": "Twisted Fate",
+    "title": "the Card Master",
+    "image": {
+      "full": "TwistedFate.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 432,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Twitch",
+    "key": "29",
+    "name": "Twitch",
+    "title": "the Plague Rat",
+    "image": {
+      "full": "Twitch.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 0,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Udyr",
+    "key": "77",
+    "name": "Udyr",
+    "title": "the Spirit Walker",
+    "image": {
+      "full": "Udyr.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 48,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Urgot",
+    "key": "6",
+    "name": "Urgot",
+    "title": "the Dreadnought",
+    "image": {
+      "full": "Urgot.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 96,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Varus",
+    "key": "110",
+    "name": "Varus",
+    "title": "the Arrow of Retribution",
+    "image": {
+      "full": "Varus.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 144,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Vayne",
+    "key": "67",
+    "name": "Vayne",
+    "title": "the Night Hunter",
+    "image": {
+      "full": "Vayne.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 192,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Veigar",
+    "key": "45",
+    "name": "Veigar",
+    "title": "the Tiny Master of Evil",
+    "image": {
+      "full": "Veigar.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 240,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Velkoz",
+    "key": "161",
+    "name": "Vel'Koz",
+    "title": "the Eye of the Void",
+    "image": {
+      "full": "Velkoz.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 288,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Vex",
+    "key": "711",
+    "name": "Vex",
+    "title": "the Gloomist",
+    "image": {
+      "full": "Vex.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 336,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Vi",
+    "key": "254",
+    "name": "Vi",
+    "title": "the Piltover Enforcer",
+    "image": {
+      "full": "Vi.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 384,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Viego",
+    "key": "234",
+    "name": "Viego",
+    "title": "The Ruined King",
+    "image": {
+      "full": "Viego.png",
+      "sprite": "champion4.png",
+      "group": "champion",
+      "x": 432,
+      "y": 96,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Viktor",
+    "key": "112",
+    "name": "Viktor",
+    "title": "the Machine Herald",
+    "image": {
+      "full": "Viktor.png",
+      "sprite": "champion5.png",
+      "group": "champion",
+      "x": 0,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Vladimir",
+    "key": "8",
+    "name": "Vladimir",
+    "title": "the Crimson Reaper",
+    "image": {
+      "full": "Vladimir.png",
+      "sprite": "champion5.png",
+      "group": "champion",
+      "x": 48,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Volibear",
+    "key": "106",
+    "name": "Volibear",
+    "title": "the Relentless Storm",
+    "image": {
+      "full": "Volibear.png",
+      "sprite": "champion5.png",
+      "group": "champion",
+      "x": 96,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Warwick",
+    "key": "19",
+    "name": "Warwick",
+    "title": "the Uncaged Wrath of Zaun",
+    "image": {
+      "full": "Warwick.png",
+      "sprite": "champion5.png",
+      "group": "champion",
+      "x": 144,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Xayah",
+    "key": "498",
+    "name": "Xayah",
+    "title": "the Rebel",
+    "image": {
+      "full": "Xayah.png",
+      "sprite": "champion5.png",
+      "group": "champion",
+      "x": 192,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Xerath",
+    "key": "101",
+    "name": "Xerath",
+    "title": "the Magus Ascendant",
+    "image": {
+      "full": "Xerath.png",
+      "sprite": "champion5.png",
+      "group": "champion",
+      "x": 240,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "XinZhao",
+    "key": "5",
+    "name": "Xin Zhao",
+    "title": "the Seneschal of Demacia",
+    "image": {
+      "full": "XinZhao.png",
+      "sprite": "champion5.png",
+      "group": "champion",
+      "x": 288,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Yasuo",
+    "key": "157",
+    "name": "Yasuo",
+    "title": "the Unforgiven",
+    "image": {
+      "full": "Yasuo.png",
+      "sprite": "champion5.png",
+      "group": "champion",
+      "x": 336,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Yone",
+    "key": "777",
+    "name": "Yone",
+    "title": "the Unforgotten",
+    "image": {
+      "full": "Yone.png",
+      "sprite": "champion5.png",
+      "group": "champion",
+      "x": 384,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Yorick",
+    "key": "83",
+    "name": "Yorick",
+    "title": "Shepherd of Souls",
+    "image": {
+      "full": "Yorick.png",
+      "sprite": "champion5.png",
+      "group": "champion",
+      "x": 432,
+      "y": 0,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Yuumi",
+    "key": "350",
+    "name": "Yuumi",
+    "title": "the Magical Cat",
+    "image": {
+      "full": "Yuumi.png",
+      "sprite": "champion5.png",
+      "group": "champion",
+      "x": 0,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Zac",
+    "key": "154",
+    "name": "Zac",
+    "title": "the Secret Weapon",
+    "image": {
+      "full": "Zac.png",
+      "sprite": "champion5.png",
+      "group": "champion",
+      "x": 48,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Zed",
+    "key": "238",
+    "name": "Zed",
+    "title": "the Master of Shadows",
+    "image": {
+      "full": "Zed.png",
+      "sprite": "champion5.png",
+      "group": "champion",
+      "x": 96,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Zeri",
+    "key": "221",
+    "name": "Zeri",
+    "title": "The Spark of Zaun",
+    "image": {
+      "full": "Zeri.png",
+      "sprite": "champion5.png",
+      "group": "champion",
+      "x": 144,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Ziggs",
+    "key": "115",
+    "name": "Ziggs",
+    "title": "the Hexplosives Expert",
+    "image": {
+      "full": "Ziggs.png",
+      "sprite": "champion5.png",
+      "group": "champion",
+      "x": 192,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Zilean",
+    "key": "26",
+    "name": "Zilean",
+    "title": "the Chronokeeper",
+    "image": {
+      "full": "Zilean.png",
+      "sprite": "champion5.png",
+      "group": "champion",
+      "x": 240,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Zoe",
+    "key": "142",
+    "name": "Zoe",
+    "title": "the Aspect of Twilight",
+    "image": {
+      "full": "Zoe.png",
+      "sprite": "champion5.png",
+      "group": "champion",
+      "x": 288,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  },
+  {
+    "id": "Zyra",
+    "key": "143",
+    "name": "Zyra",
+    "title": "Rise of the Thorns",
+    "image": {
+      "full": "Zyra.png",
+      "sprite": "champion5.png",
+      "group": "champion",
+      "x": 336,
+      "y": 48,
+      "w": 48,
+      "h": 48
+    }
+  }
+]

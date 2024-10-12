@@ -11,6 +11,7 @@ import {
   embedThumbnail,
 } from '../data/embedVariables'
 import { author } from './author'
+import { evil } from './evil/evil'
 import { split } from './split'
 import { team } from './team'
 import { version } from './version'
@@ -26,12 +27,12 @@ export const help: Command = {
     const helpEmbed = new EmbedBuilder()
       .setColor(embedColor)
       .setTitle('`in-house-inator` commands')
+      .setURL('https://in-house-inator.netlify.app/')
       .setThumbnail(embedThumbnail)
       .setDescription(
         `All command are invoked with \`/\`. Any command with \`{}\` indicates extra options for the command. 
                 
-                Full documentation available at:
-                [https://in-house-inator.netlify.app/](https://in-house-inator.netlify.app/)`,
+                Full documentation available at: https://in-house-inator.netlify.app/`,
       )
       .addFields(
         {
@@ -41,6 +42,10 @@ export const help: Command = {
         {
           name: '/' + split.name + ' {teams}',
           value: split.description,
+        },
+        {
+          name: '/' + evil.name + ' {game}',
+          value: evil.description,
         },
         {
           name: '/' + author.name,
