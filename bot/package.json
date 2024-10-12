@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc --build",
     "start": "env NODE_ENV=production ts-node ./src/index.ts",
-    "dev": "nodemon ./src/index.ts"
+    "dev": "nodemon ./src/index.ts",
+    "generate": "ts-node ./src/generate.ts"
   },
   "author": "Riley Abrahamson",
   "license": "ISC",
